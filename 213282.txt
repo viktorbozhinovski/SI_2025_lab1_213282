@@ -1,0 +1,30 @@
+Git komandi
+
+mkdir SI_2025_lab1_213282 - kreirav direktorium
+cd SI_2025_lab1_233288 - vlegov vo direktorium
+git init - kreiranje lokalen repozitorium
+git remote add origin https://github.com/viktorbozhinovski/SI_2025_lab1_213282- povrzuvanje so remote repozitorium
+echo "Viktor Bozhinovski, Index: 213282" > README.md k- kreirav file so sodrzina 
+git add README.md - dodavanje na stage 
+git commit -m "Initial commit" - dodavanje vo lokalno repo
+git add SI2025Lab1Main.java - kreiranje datoteka
+git commit -m "Add starter code" - dodavanje vo lokalno repo
+
+
+
+Del 2:
+git fetch origin - prevzemanje na promenite od remote repozitorium imam napraveno 9 taskovi i za 3 od niv granki
+git checkout 1-remove-a-task-by-name - promena na gramka
+git add . - dodavanje na stage
+git commit -m “RemoveTaskByName imported”  - dodavanje vo repo
+Git push origin 1-remove-a-task-by-name - dodavanje vo remote repo
+—- istoto go povtoriv I za drugite 2 taska, no prodolziv ponatamu i ne napraiv pull—
+Git checkout master - promena na master grana
+Git merge 1-remove-a-task-by-name - spojuvanje 
+Git push origin master - se sluci konflikt zatoa sto lokalniot repozitorium ne e sinhroniziran so remote 
+git pull --no-rebase origin master - povlekuvanje na najnovite promeni od remote repo do master 
+git log --oneline --graph --all
+Nano logs.txt - go ostaviv prazno bidejki ne go dobiv graphot log --oneline --graph --all
+Nano 233288.txt - tuka e postavena sodrzinata i cekorite na mojata rabota
+Git add .
+Git commit -m “final commit
